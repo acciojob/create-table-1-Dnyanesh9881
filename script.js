@@ -5,8 +5,8 @@ function insert_Row() {
 	let tr=document.createElement("tr");
 	let cell=document.createElement("td");
 	let cell2=document.createElement("td");
-	cell.innerText="";
-	cell2.innerText="";
+	cell.innerText="New Cell1";
+	cell2.innerText="New Cell2";
 	tr.appendChild(cell);
 	tr.appendChild(cell2);
 	table.insertBefore(tr, table.children[0]);
